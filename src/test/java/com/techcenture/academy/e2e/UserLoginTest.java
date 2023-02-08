@@ -135,7 +135,6 @@ public class UserLoginTest {
     }
 
 
-
     public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException {
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
@@ -146,8 +145,6 @@ public class UserLoginTest {
         FileUtils.copyFile(source, finalDestination);
         return destination;
     }
-
-
 
 
 }
